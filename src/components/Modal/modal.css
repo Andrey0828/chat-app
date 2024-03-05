@@ -1,0 +1,110 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-window {
+    padding: 24px;
+    background: #F2F7FF;
+    border-radius: 16px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    max-width: 312px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.modal-title {
+    color: rgb(28, 27, 31);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.modal-form-input input {
+    padding: 23px 16px 9px 16px;
+    max-width: 264px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    background: rgb(231, 224, 236);
+    border: none;
+    outline: none;
+    color: rgb(73, 69, 79);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    border-bottom: 1px black solid;
+}
+
+.modal-form-input input::placeholder {
+    color: black;
+}
+
+.modal-form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.modal-form-btn {
+    padding: 10px 12px;
+    color: rgb(207, 27, 27);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    transition: .5s;
+    background: #F2F7FF;
+}
+
+.modal-form-btn:active {
+    transform: scale(.95);
+}
+
+.modal-form-btn:nth-child(2) {
+    color: rgb(103, 80, 164);
+}
+
+.modal-form-btns {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    justify-content: flex-end;
+}
+
+.input-title, .input-content {
+    position: relative;
+}
+
+.input-title span, .input-content span {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}

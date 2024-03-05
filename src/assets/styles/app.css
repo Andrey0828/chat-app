@@ -1,0 +1,15 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.phone {
+    max-width: 400px;
+    width: 100%;
+}
+
+.phones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    height: 100vh;
+}
