@@ -32,6 +32,7 @@
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+    word-wrap: break-word;
 }
 
 .message-date {
@@ -51,8 +52,7 @@
 }
 
 .message-to-text {
-    padding: 5px;
-    padding-left: 10px;
+    padding: 5px 10px;
     border-radius: 15px 15px 15px 0px;
     background: rgb(196, 191, 255);
     max-width: 262px;
@@ -64,6 +64,10 @@
     border-radius: 15px 15px 15px 0px;
     background: rgb(196, 191, 255);
     max-width: 262px;
+}
+
+.message-to-text-with-picture img {
+    border-radius: 15px 15px 15px 0px;
 }
 
 .message-from-text {
@@ -79,6 +83,10 @@
     border-radius: 15px 15px 0px 15px;
     background: rgb(208, 220, 255);
     max-width: 262px;
+}
+
+.message-from-text-with-picture img {
+    border-radius: 15px 15px 0px 15px;
 }
 
 .message-from {

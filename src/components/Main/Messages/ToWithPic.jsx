@@ -1,7 +1,7 @@
 const ToWithPic = (props) => {
 
     const {img, text, date} = props
-
+    
     return (
         <>
             <div className="message">
